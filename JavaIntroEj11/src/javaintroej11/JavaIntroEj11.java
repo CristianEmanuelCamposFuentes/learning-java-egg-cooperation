@@ -25,7 +25,7 @@ public class JavaIntroEj11 {
 
         Scanner leer = new Scanner(System.in);
 
-        // TODO code application logic here
+        
         String frase;
         do {
             System.out.println("Ingrese la frase a codificar terminada en (.)");
