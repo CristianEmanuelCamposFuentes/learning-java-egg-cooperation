@@ -66,8 +66,7 @@ public class JavaIntroEj11 {
                 }
             }   else{
             	aux += frase.substring(i, i + 1);
-            }
-                
+            }       
         }
     return aux;
     }
