@@ -42,6 +42,7 @@ public class JavaIntroEj10 {
             numeros[i] = num;
         }
         
+        // Resultados
         System.out.println("==================================");
         System.out.println("Usted ingresó: ");
         
