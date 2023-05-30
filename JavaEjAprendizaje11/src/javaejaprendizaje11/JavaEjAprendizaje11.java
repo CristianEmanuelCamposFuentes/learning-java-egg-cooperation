@@ -61,7 +61,7 @@ public class JavaEjAprendizaje11 {
 
             switch (opcion) {
                 case 1: 
-                    sumar(primerNumero,segundoNumero);
+                    System.out.println("La suma de sus numeros es: " + sumar(primerNumero,segundoNumero));
                      break;
                 case 2: 
                     restar(primerNumero,segundoNumero);
@@ -83,11 +83,11 @@ public class JavaEjAprendizaje11 {
         
         
     }
-    public static void sumar(int primerNumero, int segundoNumero){
-        int total = primerNumero + segundoNumero;
-        System.out.println("======== ==== ========");
-        System.out.println("La suma de sus numeros es: " + total);
-        System.out.println("======== ==== ========");
+    public static int sumar(int primerNumero, int segundoNumero){
+        return primerNumero + segundoNumero;
+        //System.out.println("======== ==== ========");
+        
+        //System.out.println("======== ==== ========");
     }
     public static void restar(int primerNumero, int segundoNumero){
         int total = primerNumero - segundoNumero;
