@@ -19,6 +19,7 @@ public class JavaEjAprendizaje17 {
     public static void main(String[] args) {
          // Lector
         Scanner lector = new Scanner(System.in);
+        
         int min = 1, max = 99999;
         
         
@@ -35,7 +36,13 @@ public class JavaEjAprendizaje17 {
         int[] vector = new int[dimension];
         
         for (int i = 0; i < dimension; i++) {
-            vector[i] = random.nextInt(maximo - minimo + 1)+ minimo;
+            /*
+            int longitudDeseada = random.nextInt(5) + 1;
+            int numeroGenerado = generarNumeroAleatorio(longitudDeseada);
+            vector[i] = numeroGenerado;
+            */
+            //vector[i] = random.nextInt(maximo - minimo + 1)+ minimo;
+            vector[i] = generarNumeroAleatorio(minimo, maximo, random);
         }
         
         System.out.println("=== === VECTOR === ===");
@@ -88,6 +95,20 @@ public class JavaEjAprendizaje17 {
             contador++;
         }
         return contador;
+    }
+    
+    
+    public static int generarNumeroAleatorio(int minimo, int maximo, Random random) {
+        //Random random = new Random();
+        int longitudMinima = contarDigitos(minimo);
+        int longitudMaxima = contarDigitos(maximo);
+        
+        int longitud = random.nextInt(longitudMaxima - longitudMinima + 1) + longitudMinima;
+        
+        //int minimo = (int) Math.pow(10, longitud - 1);
+        //int maximo = (int) Math.pow(10, longitud) - 1;
+        int numeroAleatorio = (int) Math.pow(10, longitud - 1) + random.nextInt((int) Math.pow(10, longitud - 1));
+        return numeroAleatorio;
     }
     
 }
