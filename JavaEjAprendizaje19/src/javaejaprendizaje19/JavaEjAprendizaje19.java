@@ -6,7 +6,6 @@ denota por AT y se obtiene cambiando sus filas por columnas (o viceversa).
  */
 package javaejaprendizaje19;
 
-import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -28,16 +27,19 @@ public class JavaEjAprendizaje19 {
         System.out.println("Ingrese un numero de columnas: ");
         int dimColumnas = lector.nextInt();
       
-        
-        int[][] matriz = {{0, -2, 4}, {2,0,2},{-4,-2,0}};
-//        int[][] matriz= crearCuadrado(dimFilas, dimColumnas);
+        //Crear Matriz
+        int[][] matriz= crearMatriz(dimFilas, dimColumnas, lector);
         System.out.println("=== SU MATRIZ ===");
         mostrarMatriz(matriz);
         
+        //Crear matriz transpuesta
+        int[][] matrizTranspuesta= crearMatrizTranspuesta(matriz, dimFilas, dimColumnas, lector);
+        System.out.println("=== SU MATRIZ TRANSPUESTA ===");
+        mostrarMatriz(matrizTranspuesta);
         
         boolean esAntisimetrica = verificarAntisimetrica(matriz);
-        //boolean esAntisimetrica = verificarAntisimetrica(matriz, dimFilas, dimColumnas);
-        
+                System.out.println("=== ====== ===");
+
         if(esAntisimetrica){
             System.out.println("La matriz es antisimetrica.");
         } else {
@@ -46,30 +48,43 @@ public class JavaEjAprendizaje19 {
         
     }
     
-//    public static int[][] crearCuadrado(int dimensionFilas, int dimensionColumnas){
-//        Random random = new Random();
-//        int[][] matriz = new int[dimensionFilas][dimensionColumnas];
-//        for (int i = 0; i < dimensionFilas; i++) {
-//            for (int j = 0; j < dimensionColumnas; j++) {
-//                
-//                    matriz[i][j] = random.nextInt(10);
-//            }        
-//        }
-//        return matriz;
-//    }
+    public static int[][] crearMatriz(int dimensionFilas, int dimensionColumnas, Scanner lector){
+        int[][] matriz = new int[dimensionFilas][dimensionColumnas];
+        for (int i = 0; i < dimensionFilas; i++) {
+            for (int j = 0; j < dimensionColumnas; j++) {
+                int num;
+                do{
+                    System.out.println("Ingrese un numero: ");
+                    num = lector.nextInt();
+                    matriz[i][j] = num;
+                } while(num < -10 || num > 10);
+                    
+            }        
+        }
+        return matriz;
+    }
+    
+    public static int[][] crearMatrizTranspuesta(int[][] matriz, int dimensionFilas, int dimensionColumnas, Scanner lector){
+        int[][] matrizTranspuesta = new int[dimensionFilas][dimensionColumnas];
+        for (int i = 0; i < dimensionFilas; i++) {
+            for (int j = 0; j < dimensionColumnas; j++) {
+                matrizTranspuesta[i][j] = matriz[j][i];
+                    
+            }        
+        }
+        return matrizTranspuesta;
+    }
     
     public static void mostrarMatriz(int[][] matriz){
         for (int[] fila : matriz) {
             for(int elemento: fila){
-                System.out.print(elemento + " ");
+                System.out.print("|" + elemento + "|");
             }
             System.out.println("");
         }
     }
     
-    public static boolean verificarAntisimetrica(int[][] matriz){
-    //public static boolean verificarAntisimetrica(int[][] matriz, int dimensionFilas, int dimensionColumnas){
-      
+    public static boolean verificarAntisimetrica(int[][] matriz){ 
     int dimensionFilas = matriz.length;
     int dimensionColumnas = matriz[0].length;
     
@@ -78,7 +93,6 @@ public class JavaEjAprendizaje19 {
             return false; // La matriz no es cuadrada, por lo tanto, no puede ser antisimetrica
         }
         
-        //int[][] matrizTranspuesta = new int[dimensionFilas][dimensionColumnas];
         for (int i = 0; i < dimensionFilas; i++) {
             for (int j = 0; j < dimensionColumnas; j++) {
                 if (matriz[j][i] != -matriz[i][j]){
