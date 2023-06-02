@@ -27,6 +27,18 @@ public class JavaEjAprendizaje21 {
         int[][] matrizM = crearMatriz(10);
         mostrarMatriz(matrizM);
         
+        int[][] matrizP = crearMatrizP(lector);
+        System.out.println("==== SUBMATRIZ INGRESADA ====");
+        mostrarMatriz(matrizP);
+        
+        boolean esSubmatriz = comprobarSubmatriz(matrizM,matrizP);
+        System.out.println("==== RESULTADO ====");
+        
+        if(esSubmatriz){
+            System.out.println("Su matriz ingresada es submatriz de la matriz principal.");   
+        } else {
+            System.out.println("Su matriz ingresada no es submatriz de la matriz principal.");
+        }
     }
     
     
@@ -37,6 +49,8 @@ public class JavaEjAprendizaje21 {
     public static int[][] crearMatriz(int dim) {
         int[][] matriz = new int[dim][dim];
         
+        System.out.println("==== MATRIZ PRINCIPAL ====");
+        
         for (int i = 0; i < dim; i++) {
             for (int j = 0; j < dim; j++) {
                 matriz[i][j] = new Random().nextInt(100);
@@ -45,7 +59,25 @@ public class JavaEjAprendizaje21 {
         return matriz;
     }
     
+    
+    public static int[][] crearMatrizP(Scanner lector) {
+        int[][] matriz = new int[3][3];
+        
+        System.out.println("==== INGRESE SU SUBMATRIZ ====");
+        
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+               do {
+                   System.out.print("Ingrese un valor para el indice [" +i+"]["+j+"]:  ");
+                   matriz[i][j] = lector.nextInt();
+               } while(matriz[i][j]<0 || matriz[i][j]>99);
+            }
+        }
+        return matriz;
+    }
+    
     public static void mostrarMatriz(int[][] matriz) {
+    
         
         
         for (int[] fila : matriz) {
@@ -58,5 +90,38 @@ public class JavaEjAprendizaje21 {
             }
             System.out.println("_");
         }
+    }
+    
+    public static boolean comprobarSubmatriz(int[][] matrizM, int[][] matrizP) {
+        // Comprobacion, tengo en cuenta el largo de las matrices porque 10 - 3 = 7
+        // Que es el numero de la ultima fila que puedo recorrer, sino se sale del limite.
+        int m = matrizM.length;
+        int p = matrizP.length;
+
+        // Bucles anidados para recorrer toda la submatriz principal
+        for (int i = 0; i <= m - p; i++) {
+            for (int j = 0; j <= m - p; j++) {
+                boolean esSubmatriz = true;
+
+                // Con estos comparo cada indice con la submatriz, por eso itera hasta m (es igual a 3)
+                for (int k = 0; k < p; k++) {
+                    for (int l = 0; l < p; l++) {
+                        if (matrizM[i + k][j + l] != matrizP[k][l]) {
+                            esSubmatriz = false;
+                            break;
+                        }
+                    }
+                    if (!esSubmatriz) {
+                        break;
+                    }
+                }
+                if (esSubmatriz) {
+                    System.out.println("La submatriz P se encuentra en la matriz M en los índices: ");
+                    System.out.println("Fila: " + (i + 1) + " + , Columna: " + (j + 1));
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
