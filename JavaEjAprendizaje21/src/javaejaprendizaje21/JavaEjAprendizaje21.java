@@ -8,6 +8,9 @@ columna de la matriz M en la cual empieza el primer elemento de la submatriz P.
  */
 package javaejaprendizaje21;
 
+import java.util.Random;
+import java.util.Scanner;
+
 /**
  *
  * @author crist
@@ -18,7 +21,42 @@ public class JavaEjAprendizaje21 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Lector 
+        Scanner lector = new Scanner(System.in);
+        
+        int[][] matrizM = crearMatriz(10);
+        mostrarMatriz(matrizM);
+        
     }
     
+    
+    
+    
+    
+    
+    public static int[][] crearMatriz(int dim) {
+        int[][] matriz = new int[dim][dim];
+        
+        for (int i = 0; i < dim; i++) {
+            for (int j = 0; j < dim; j++) {
+                matriz[i][j] = new Random().nextInt(100);
+            }
+        }
+        return matriz;
+    }
+    
+    public static void mostrarMatriz(int[][] matriz) {
+        
+        
+        for (int[] fila : matriz) {
+            for (int elemento : fila) {
+                System.out.printf("| %2d ", elemento);
+            }
+            System.out.println("|");
+            for (int i = 0; i < matriz.length; i++) {
+                System.out.print("_____");
+            }
+            System.out.println("_");
+        }
+    }
 }
