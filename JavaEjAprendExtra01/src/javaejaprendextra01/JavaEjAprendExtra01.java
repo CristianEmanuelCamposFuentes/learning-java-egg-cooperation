@@ -36,4 +36,27 @@ public class JavaEjAprendExtra01 {
         System.out.println(minutosIngresados + " minutos equivalen a " + dias + " día(s) y " + horas + " hora(s).");
         
     }
+    
+    /*
+    Solucion alternativa utilizando restas sucesivas
+    public static void calcularMinutos(int minutosIngresados) {
+        int minutos = minutosIngresados;
+        int minutosEnUnDia = 24 * 60;
+    
+        int dias = 0;
+        
+    while(minutos >= minutosEnUnDia){
+        
+        minutos -= minutosEnUnDia;
+        dias++;
+    
+    }
+        int horas = minutos / 60;
+    
+    
+        System.out.println("==== RESULTADO ====");
+        System.out.println(minutosIngresados + " minutos equivalen a " + dias + " día(s) y " + horas + " hora(s).");
+        
+    }
+    */
 }
