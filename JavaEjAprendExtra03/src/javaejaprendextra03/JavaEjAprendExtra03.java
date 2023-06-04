@@ -21,32 +21,42 @@ public class JavaEjAprendExtra03 {
         Scanner lector = new Scanner(System.in);
         
         System.out.println("Ingrese una letra: ");
-        char letra = lector.next().charAt(0);
+        String letra = lector.nextLine().toLowerCase();
         
-        esVocal(letra);
-    }
-    
-    public static void esVocal(char letra) {
-        // Lector
-        switch(letra){
-            case 'a':
-                System.out.println("Es vocal.");
-                break;
-            case 'e':
-                System.out.println("Es vocal.");
-                break;
-            case 'i':
-                System.out.println("Es vocal.");
-                break;
-            case 'o':
-                System.out.println("Es vocal.");
-                break;
-            case 'u':
-                System.out.println("Es vocal.");
-                break;
-            default:
-                System.out.println("No es vocal.");
-                break;
+        if(esVocal(letra)){
+            System.out.println("La letra ingresada es vocal.");
+        } else {
+            System.out.println("La letra ingresada no es vocal.");
         }
     }
+    
+    public static boolean esVocal(String letra) {
+        return letra.equals("a") || letra.equals("e") || letra.equals("i") || letra.equals("o") || letra.equals("u");
+        
+        
+    }
+    
+//    public static void esVocal(char letra) {
+//        // Lector
+//        switch(letra){
+//            case 'a':
+//                System.out.println("Es vocal.");
+//                break;
+//            case 'e':
+//                System.out.println("Es vocal.");
+//                break;
+//            case 'i':
+//                System.out.println("Es vocal.");
+//                break;
+//            case 'o':
+//                System.out.println("Es vocal.");
+//                break;
+//            case 'u':
+//                System.out.println("Es vocal.");
+//                break;
+//            default:
+//                System.out.println("No es vocal.");
+//                break;
+//        }
+//    }
 }
