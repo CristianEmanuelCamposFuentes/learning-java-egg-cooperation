@@ -41,11 +41,6 @@ public class JavaEjAprendizaje21 {
         }
     }
     
-    
-    
-    
-    
-    
     public static int[][] crearMatriz(int dim) {
         int[][] matriz = new int[dim][dim];
         
@@ -58,7 +53,6 @@ public class JavaEjAprendizaje21 {
         }
         return matriz;
     }
-    
     
     public static int[][] crearMatrizP(Scanner lector) {
         int[][] matriz = new int[3][3];
@@ -77,15 +71,13 @@ public class JavaEjAprendizaje21 {
     }
     
     public static void mostrarMatriz(int[][] matriz) {
-    
-        
-        
+   
         for (int[] fila : matriz) {
             for (int elemento : fila) {
                 System.out.printf("| %2d ", elemento);
             }
             System.out.println("|");
-            for (int i = 0; i < matriz.length; i++) {
+            for (int[] matriz1 : matriz) {
                 System.out.print("_____");
             }
             System.out.println("_");
@@ -117,7 +109,7 @@ public class JavaEjAprendizaje21 {
                 }
                 if (esSubmatriz) {
                     System.out.println("La submatriz P se encuentra en la matriz M en los índices: ");
-                    System.out.println("Fila: " + (i + 1) + " + , Columna: " + (j + 1));
+                    System.out.println("Fila: " + (i + 1) + " , Columna: " + (j + 1));
                     return true;
                 }
             }
