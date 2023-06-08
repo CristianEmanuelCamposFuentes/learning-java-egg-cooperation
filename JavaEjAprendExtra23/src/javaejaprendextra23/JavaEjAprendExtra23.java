@@ -71,10 +71,10 @@ public class JavaEjAprendExtra23 {
                 fila = (int) (Math.random() * 20); // Seleccionar una nueva fila si no hay suficiente espacio
                 columna = 0;
             }
-            
             for (int i = 0; i < palabra.length(); i++) {
                 sopaLetras[fila][columna + i] = palabra.charAt(i);
             }
+            fila = (int) (Math.random() * 20);
             columna += palabra.length() + 1; // Dejar un espacio entre palabras
         }
         
