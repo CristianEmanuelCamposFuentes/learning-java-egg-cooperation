@@ -5,6 +5,8 @@
  */
 package javapooej01;
 
+import Entidad.Persona;
+
 /**
  *
  * @author crist
@@ -15,7 +17,17 @@ public class JavaPOOEj01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        // Instanciacion utilizando el constructor vacio
+        Persona taba = new Persona();
+        
+        // Instanciacion utilizando el constructor por parametros
+        Persona tabaCompleto = new Persona("Cristian", "Campos", 30);
+        
+        System.out.println("Constructor vacio: ");
+        System.out.println("Constructor por parametros: " + tabaCompleto);
+        
+        
     }
     
 }
