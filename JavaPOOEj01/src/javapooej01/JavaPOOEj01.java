@@ -24,14 +24,17 @@ public class JavaPOOEj01 {
         PersonaService persServicio = new PersonaService();
 
         // Instanciacion utilizando el constructor por parametros
-        Persona terceraPersona = persServicio.crearPersona();
+//        Persona terceraPersona = persServicio.crearPersona();
+//
+//        System.out.println(terceraPersona.getApellido());
+//        System.out.println(terceraPersona.getNombre());
+//        System.out.println(terceraPersona.getEdad());
+//
+        Persona taba = new Persona("Taba", "Campos", 30);
 
-        System.out.println(terceraPersona.getApellido());
-        System.out.println(terceraPersona.getNombre());
-        System.out.println(terceraPersona.getEdad());
-
-
-
+        System.out.println(taba.getApellido());
+        System.out.println(taba.getNombre());
+        System.out.println(taba.getEdad());
     }
     
 }
