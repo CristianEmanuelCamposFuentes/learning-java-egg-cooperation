@@ -6,6 +6,7 @@
 package javapooej01;
 
 import Entidad.Persona;
+import Servicio.PersonaService;
 
 /**
  *
@@ -18,16 +19,19 @@ public class JavaPOOEj01 {
      */
     public static void main(String[] args) {
         
-        // Instanciacion utilizando el constructor vacio
-        Persona taba = new Persona();
-        
+        // Debemos instanciar un objeto del tipo Servicio
+        // Para acceder a sus metodos
+        PersonaService persServicio = new PersonaService();
+
         // Instanciacion utilizando el constructor por parametros
-        Persona tabaCompleto = new Persona("Cristian", "Campos", 30);
-        
-        System.out.println("Constructor vacio: ");
-        System.out.println("Constructor por parametros: " + tabaCompleto);
-        
-        
+        Persona terceraPersona = persServicio.crearPersona();
+
+        System.out.println(terceraPersona.getApellido());
+        System.out.println(terceraPersona.getNombre());
+        System.out.println(terceraPersona.getEdad());
+
+
+
     }
     
 }

@@ -5,6 +5,8 @@
  */
 package Entidad;
 
+import java.util.Scanner;
+
 /**
  *
  * @author crist
@@ -51,5 +53,7 @@ public class Persona {
         this.apellido = apellido;
         this.edad = edad;
     }
+
+
 
 }
