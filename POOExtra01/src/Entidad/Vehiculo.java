@@ -1,6 +1,7 @@
 package Entidad;
 
 public class Vehiculo {
+    // Siempre los atributos deben ser privados.
     private String marca;
     private int year;
     private String modelo;
