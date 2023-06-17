@@ -45,4 +45,9 @@ public class Vehiculo {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    @Override
+    public String toString(){
+        return "Marca: " + marca + "\nModelo: " + modelo + "\nAño: " + year + "\nTipo: " + tipo;
+    }
 }

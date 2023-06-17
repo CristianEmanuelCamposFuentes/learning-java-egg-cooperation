@@ -1,5 +1,8 @@
 package ExtraEj01;
 
+import Entidad.Vehiculo;
+import ServicesEntidad.ServiciosVehiculo;
+
 public class EjercicioExtra01 {
 //    Ejercicio 1
 //    Crear una clase "Vehículo" con atributos como "marca", "modelo", "año" y "tipo" (En tipo, vamos a indicar si es un
@@ -20,6 +23,9 @@ public class EjercicioExtra01 {
 //    avanzó.
 //
     public static void main(String[] args) {
-
+        // Crear instancia para poder utilizar la Clase ServiciosVechiculo y sus metodos
+        ServiciosVehiculo SV = new ServiciosVehiculo();
+        Vehiculo vehiculo1 = SV.crearVehiculo();
+        System.out.println("Vehiculo creado: \n" + vehiculo1.toString());
     }
 }
