@@ -27,5 +27,13 @@ public class EjercicioExtra01 {
         ServiciosVehiculo SV = new ServiciosVehiculo();
         Vehiculo vehiculo1 = SV.crearVehiculo();
         System.out.println("Vehiculo creado: \n" + vehiculo1.toString());
+
+        Vehiculo vehiculo2 = SV.crearVehiculo();
+        System.out.println("Vehiculo creado: \n" + vehiculo2.toString());
+
+        Vehiculo vehiculo3 = SV.crearVehiculo();
+        System.out.println("Vehiculo creado: \n" + vehiculo3.toString());
+
+
     }
 }

@@ -68,11 +68,31 @@ public class ServiciosVehiculo {
         return nuevaMarca;
     }
 
-    public void moverVehiculo(){
-
+    public int moverVehiculo(String tipoVehiculo, int cantidadSegundos){
+        int cantidadMetros;
+        switch (tipoVehiculo){
+            case "automovil":
+                cantidadMetros = cantidadSegundos * 3;
+                break;
+            case "motocicleta":
+                cantidadMetros = cantidadSegundos * 2;
+                break;
+            case "bicicleta":
+                cantidadMetros = cantidadSegundos;
+                break;
+            default:
+                cantidadMetros = 0;
+                break;
+        }
+        return cantidadMetros;
     }
 
-    public void frenarVehiculo(){
-
+    public int frenarVehiculo(String tipoVehiculo, int cantidadMetros){
+        if(tipoVehiculo == "bicicleta"){
+            return cantidadMetros;
+        } else {
+            cantidadMetros = cantidadMetros + 2;
+        }
+        return cantidadMetros;
     }
 }
