@@ -25,6 +25,7 @@ public class EjercicioExtra01 {
     public static void main(String[] args) {
         // Crear instancia para poder utilizar la Clase ServiciosVechiculo y sus metodos
         ServiciosVehiculo SV = new ServiciosVehiculo();
+
         Vehiculo vehiculo1 = SV.crearVehiculo();
         System.out.println("Vehiculo creado: \n" + vehiculo1.toString());
 
@@ -34,6 +35,46 @@ public class EjercicioExtra01 {
         Vehiculo vehiculo3 = SV.crearVehiculo();
         System.out.println("Vehiculo creado: \n" + vehiculo3.toString());
 
+        System.out.println("\n Vehículos creados: \n" + vehiculo1.toString() + "\n" + vehiculo2.toString() + "\n" + vehiculo3.toString()+ "\n");
+
+        // ** PRIMERA PARTE DEL EJERCICIO
+        // Ingresar diferentes tiempos para las pruebas
+        int tiempo5Segundos = 5;
+        int tiempo10Segundos = 10;
+        int tiempo1Minutos = 60;
+
+        //Avance de los vehiculos despues de 5 segundos
+        int avanceVehiculo1_5Segundos = SV.moverVehiculo(vehiculo1.getTipo(), tiempo5Segundos);
+        System.out.println("Avance del vehiculo 1 despues de 5 segundos: " + avanceVehiculo1_5Segundos + " metros.");
+
+        int avanceVehiculo2_5Segundos = SV.moverVehiculo(vehiculo2.getTipo(), tiempo5Segundos);
+        System.out.println("Avance del vehiculo 2 despues de 5 segundos: " + avanceVehiculo2_5Segundos + " metros.");
+
+        int avanceVehiculo3_5Segundos = SV.moverVehiculo(vehiculo3.getTipo(), tiempo5Segundos);
+        System.out.println("Avance del vehiculo 3 despues de 5 segundos: " + avanceVehiculo3_5Segundos + " metros."+ "\n");
+
+        // Avance de los vehiculos despues de 10 segundos
+        int avanceVehiculo1_10Segundos = SV.moverVehiculo(vehiculo1.getTipo(), tiempo10Segundos);
+        System.out.println("Avance del vehiculo 1 despues de 10 segundos: " + avanceVehiculo1_10Segundos + " metros.");
+
+        int avanceVehiculo2_10Segundos = SV.moverVehiculo(vehiculo2.getTipo(), tiempo10Segundos);
+        System.out.println("Avance del vehiculo 2 despues de 10 segundos: " + avanceVehiculo2_10Segundos + " metros.");
+
+        int avanceVehiculo3_10Segundos = SV.moverVehiculo(vehiculo3.getTipo(), tiempo10Segundos);
+        System.out.println("Avance del vehiculo 3 despues de 10 segundos: " + avanceVehiculo3_10Segundos + " metros."+ "\n");
+
+        // Avance de los vehiculos despues de 1 minuto
+        int avanceVehiculo1_1Minutos = SV.moverVehiculo(vehiculo1.getTipo(), tiempo1Minutos);
+        System.out.println("Avance del vehiculo 1 despues de 1 minuto: " + avanceVehiculo1_1Minutos + " metros.");
+
+        int avanceVehiculo2_1Minutos = SV.moverVehiculo(vehiculo2.getTipo(), tiempo1Minutos);
+        System.out.println("Avance del vehiculo 2 despues de 1 minuto: " + avanceVehiculo2_1Minutos + " metros.");
+
+        int avanceVehiculo3_1Minutos = SV.moverVehiculo(vehiculo3.getTipo(), tiempo1Minutos);
+        System.out.println("Avance del vehiculo 3 despues de 1 minuto: " + avanceVehiculo3_1Minutos + " metros."+ "\n");
+
+
+        // ** SEGUNDA PARTE DEL EJERCICIO
 
     }
 }

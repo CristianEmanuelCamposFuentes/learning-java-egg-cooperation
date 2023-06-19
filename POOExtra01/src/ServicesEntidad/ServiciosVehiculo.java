@@ -88,7 +88,7 @@ public class ServiciosVehiculo {
     }
 
     public int frenarVehiculo(String tipoVehiculo, int cantidadMetros){
-        if(tipoVehiculo == "bicicleta"){
+        if(tipoVehiculo.equals("bicicleta")){
             return cantidadMetros;
         } else {
             cantidadMetros = cantidadMetros + 2;
@@ -96,3 +96,4 @@ public class ServiciosVehiculo {
         return cantidadMetros;
     }
 }
+
