@@ -74,7 +74,36 @@ public class EjercicioExtra01 {
         System.out.println("Avance del vehiculo 3 despues de 1 minuto: " + avanceVehiculo3_1Minutos + " metros."+ "\n");
 
 
-        // ** SEGUNDA PARTE DEL EJERCICIO
+        // ** SEGUNDA PARTE
+        // Ingreso de los 5 minutos del avance antes de frenar
+        int tiempo5Minutos = 300;
 
+        //Avance y frenado de los vehiculos despues de 5 minutos
+        int [] avanceFrenadoVehiculos = new int[3];
+
+        for (int i = 0; i < 3; i++){
+            Vehiculo vehiculo = null;
+
+            switch (i){
+                case 0:
+                    vehiculo = vehiculo1;
+                    break;
+                case 1:
+                    vehiculo = vehiculo2;
+                    break;
+                case 2:
+                    vehiculo = vehiculo3;
+                    break;
+            }
+
+            int avanceVehiculo = SV.moverVehiculo(vehiculo.getTipo(), tiempo5Minutos);
+            avanceFrenadoVehiculos[i] = SV.frenarVehiculo(vehiculo.getTipo(), avanceVehiculo);
+        }
+    // Mostrar el avance del vehiculo despues de frenar a los 5 minutos
+        System.out.println("Avance despues de recorrer 5 minutos y frenar: ");
+        for (int i = 0; i < 3; i++){
+            String vehiculoNombre = "Vehiculo " + (i + 1);
+            System.out.println(vehiculoNombre + ": " + avanceFrenadoVehiculos[i] + " metros.");
+        }
     }
 }
