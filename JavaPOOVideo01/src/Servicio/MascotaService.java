@@ -20,12 +20,14 @@ public class MascotaService {
 
         // Utilizamos el objeto para invocar el metodo SET
         // Y con el Scanner recibimos la informacion
-        perroCompleta.setNombre(leer.next());
-        System.out.println("Ingrese la edad de la persona: ");
+        perroCompleta.setNombre(leer.nextLine());
+        System.out.println("Ingrese la edad del perro: ");
         perroCompleta.setEdad(leer.nextInt());
 
-        System.out.println("Ingrese la raza de la persona: ");
-        perroCompleta.setRaza(leer.next());
+        leer.nextLine(); // Consumir el carácter de nueva línea, Limpiar el bufer de la memoria
+
+        System.out.println("Ingrese la raza del perro: ");
+        perroCompleta.setRaza(leer.nextLine());
 
         return perroCompleta;
     }
