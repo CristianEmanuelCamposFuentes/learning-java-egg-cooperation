@@ -1,7 +1,19 @@
 package nespresso;
 
+import java.util.Scanner;
+
+
 public class NESPRESSO {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Scanner lector = new Scanner(System.in);
+
+        // Crear Cafetera
+
+        // Llenar una cafetera
+
+
+
+
+
     }
 }
