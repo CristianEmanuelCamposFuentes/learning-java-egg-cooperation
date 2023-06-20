@@ -2,74 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprenExtra10/JavaEjAprenExtra10.iml" filepath="$PROJECT_DIR$/JavaEjAprenExtra10/JavaEjAprenExtra10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra01/JavaEjAprendExtra01.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra01/JavaEjAprendExtra01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra02/JavaEjAprendExtra02.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra02/JavaEjAprendExtra02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra03/JavaEjAprendExtra03.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra03/JavaEjAprendExtra03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra04/JavaEjAprendExtra04.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra04/JavaEjAprendExtra04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra05/JavaEjAprendExtra05.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra05/JavaEjAprendExtra05.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra06/JavaEjAprendExtra06.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra06/JavaEjAprendExtra06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra07/JavaEjAprendExtra07.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra07/JavaEjAprendExtra07.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra08/JavaEjAprendExtra08.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra08/JavaEjAprendExtra08.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra09/JavaEjAprendExtra09.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra09/JavaEjAprendExtra09.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra10/JavaEjAprendExtra10.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra10/JavaEjAprendExtra10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra11/JavaEjAprendExtra11.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra11/JavaEjAprendExtra11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra12/JavaEjAprendExtra12.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra12/JavaEjAprendExtra12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra13/JavaEjAprendExtra13.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra13/JavaEjAprendExtra13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra14/JavaEjAprendExtra14.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra14/JavaEjAprendExtra14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra15/JavaEjAprendExtra15.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra15/JavaEjAprendExtra15.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra16/JavaEjAprendExtra16.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra16/JavaEjAprendExtra16.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra17/JavaEjAprendExtra17.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra17/JavaEjAprendExtra17.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra18/JavaEjAprendExtra18.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra18/JavaEjAprendExtra18.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra19/JavaEjAprendExtra19.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra19/JavaEjAprendExtra19.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra20/JavaEjAprendExtra20.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra20/JavaEjAprendExtra20.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra21/JavaEjAprendExtra21.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra21/JavaEjAprendExtra21.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra22/JavaEjAprendExtra22.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra22/JavaEjAprendExtra22.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra23/JavaEjAprendExtra23.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra23/JavaEjAprendExtra23.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendExtra24/JavaEjAprendExtra24.iml" filepath="$PROJECT_DIR$/JavaEjAprendExtra24/JavaEjAprendExtra24.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje01/JavaEjAprendizaje01.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje01/JavaEjAprendizaje01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje02/JavaEjAprendizaje02.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje02/JavaEjAprendizaje02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje03/JavaEjAprendizaje03.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje03/JavaEjAprendizaje03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje04/JavaEjAprendizaje04.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje04/JavaEjAprendizaje04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje05/JavaEjAprendizaje05.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje05/JavaEjAprendizaje05.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje06/JavaEjAprendizaje06.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje06/JavaEjAprendizaje06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje07/JavaEjAprendizaje07.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje07/JavaEjAprendizaje07.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje08/JavaEjAprendizaje08.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje08/JavaEjAprendizaje08.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje09/JavaEjAprendizaje09.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje09/JavaEjAprendizaje09.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje10/JavaEjAprendizaje10.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje10/JavaEjAprendizaje10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje11/JavaEjAprendizaje11.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje11/JavaEjAprendizaje11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje12/JavaEjAprendizaje12.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje12/JavaEjAprendizaje12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje13/JavaEjAprendizaje13.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje13/JavaEjAprendizaje13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje14/JavaEjAprendizaje14.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje14/JavaEjAprendizaje14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje15/JavaEjAprendizaje15.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje15/JavaEjAprendizaje15.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje16/JavaEjAprendizaje16.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje16/JavaEjAprendizaje16.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje17/JavaEjAprendizaje17.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje17/JavaEjAprendizaje17.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje18/JavaEjAprendizaje18.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje18/JavaEjAprendizaje18.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje19/JavaEjAprendizaje19.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje19/JavaEjAprendizaje19.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje20/JavaEjAprendizaje20.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje20/JavaEjAprendizaje20.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEjAprendizaje21/JavaEjAprendizaje21.iml" filepath="$PROJECT_DIR$/JavaEjAprendizaje21/JavaEjAprendizaje21.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroDetErrores01/JavaIntroDetErrores01.iml" filepath="$PROJECT_DIR$/JavaIntroDetErrores01/JavaIntroDetErrores01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj01/JavaIntroEj01.iml" filepath="$PROJECT_DIR$/JavaIntroEj01/JavaIntroEj01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj02/JavaIntroEj02.iml" filepath="$PROJECT_DIR$/JavaIntroEj02/JavaIntroEj02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj03/JavaIntroEj03.iml" filepath="$PROJECT_DIR$/JavaIntroEj03/JavaIntroEj03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj04/JavaIntroEj04.iml" filepath="$PROJECT_DIR$/JavaIntroEj04/JavaIntroEj04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj05/JavaIntroEj05.iml" filepath="$PROJECT_DIR$/JavaIntroEj05/JavaIntroEj05.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj06/JavaIntroEj06.iml" filepath="$PROJECT_DIR$/JavaIntroEj06/JavaIntroEj06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj07/JavaIntroEj07.iml" filepath="$PROJECT_DIR$/JavaIntroEj07/JavaIntroEj07.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj08/JavaIntroEj08.iml" filepath="$PROJECT_DIR$/JavaIntroEj08/JavaIntroEj08.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj09/JavaIntroEj09.iml" filepath="$PROJECT_DIR$/JavaIntroEj09/JavaIntroEj09.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj10/JavaIntroEj10.iml" filepath="$PROJECT_DIR$/JavaIntroEj10/JavaIntroEj10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj11/JavaIntroEj11.iml" filepath="$PROJECT_DIR$/JavaIntroEj11/JavaIntroEj11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj12/JavaIntroEj12.iml" filepath="$PROJECT_DIR$/JavaIntroEj12/JavaIntroEj12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj13/JavaIntroEj13.iml" filepath="$PROJECT_DIR$/JavaIntroEj13/JavaIntroEj13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroEj14/JavaIntroEj14.iml" filepath="$PROJECT_DIR$/JavaIntroEj14/JavaIntroEj14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroVideo3Bucles/JavaIntroVideo3Bucles.iml" filepath="$PROJECT_DIR$/JavaIntroVideo3Bucles/JavaIntroVideo3Bucles.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaIntroVideo4Matrices/JavaIntroVideo4Matrices.iml" filepath="$PROJECT_DIR$/JavaIntroVideo4Matrices/JavaIntroVideo4Matrices.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaPOOVideo01/JavaPOOEj01.iml" filepath="$PROJECT_DIR$/JavaPOOVideo01/JavaPOOEj01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/POOEj01/POOEj01.iml" filepath="$PROJECT_DIR$/POOEj01/POOEj01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/POOExtra01/POOExtra01.iml" filepath="$PROJECT_DIR$/POOExtra01/POOExtra01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PrimerPrograma/PrimerPrograma.iml" filepath="$PROJECT_DIR$/PrimerPrograma/PrimerPrograma.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/learning-java-egg-cooperation.iml" filepath="$PROJECT_DIR$/.idea/learning-java-egg-cooperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO_NESPRESSO.iml" filepath="$PROJECT_DIR$/POO_NESPRESSO.iml" />
     </modules>
   </component>
 </project>
